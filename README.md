@@ -29,4 +29,4 @@ RDP - FREE
 
 + Tekan Tombol panah menghadap ke bawah Yg bertuliskan (Connect RDP.) Untuk Mendapatkan IP, User, Password.
 
-+  ```Peringatan jika Rdp close silahkan klik Action<Pilih Zaky<Klik build, Klik titik tiga klik run-rensjob dan jalan kan lagi Rdp nya```
++  ```Peringatan jika Rdp close silahkan klik Action<Silahkan Pilih Bebas Mau Yang RDP1/RDP2/RDP3<Lalu Klik build, Klik titik tiga klik run-rensjob dan jalan kan lagi Rdp nya```
