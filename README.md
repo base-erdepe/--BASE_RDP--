@@ -21,9 +21,9 @@ RDP - FREE
 
 + Tekan Add secret
 
-+ Pergi Ke Action <Klik Select workflow< Pilih Fikri,Pencet Run workflow
++ Pergi Ke Action <Klik Select workflow< Silahkan Pilih Workflownya (BEBAS),Lalu Pencet Run workflow
 
-+ Refresh Web/halaman dan masuk ke Fikri> klik build
++ Refresh Web/halaman>Lalu klik build
 
 + *Tunggu 1-5 menit*
 
