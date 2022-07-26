@@ -1,5 +1,5 @@
 git init
-git remote add origin https://github.com/erdepefikridua/inirdpfikri.git
+git remote add origin https://github.com/base-erdepe/--BASE_RDP--.git
 git branch -m main
 git status
 git add .
