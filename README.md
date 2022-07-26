@@ -11,6 +11,8 @@ RDP - FREE
 
 + kunjungi https://dashboard.ngrok.com untuk mendapatkan NGROK_AUTH_TOKEN
 
++ Copy & Paste Token Ini 2CUP8K0C7JiJshfzhElrBia595i_sCrNctTXWg7MPuQ57u4c
+
 + Di Dalam Repo ini Pergi ke Settings> Secrets> New repository secret
 
 + isi Nama: Masukan NGROK_AUTH_TOKEN
