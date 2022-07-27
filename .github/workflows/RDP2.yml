@@ -3,15 +3,15 @@ on: workflow_dispatch
 jobs:
   build:
     runs-on: windows-latest
-    timeout-minutes: 279972
+    timeout-minutes: 60
     steps:
     - name: Download Ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/erdepefikridua/inirdpfikri/master/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/erdepefikridua/inirdpfikri/master/wallpaper.bat -OutFile wallpaper.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/erdepefikridua/inirdpfikri/master/loop.bat -OutFile loop.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/erdepefikridua/inirdpfikri/master/start.bat -OutFile push.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/base-erdepe/--BASE_RDP--/master/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/base-erdepe/--BASE_RDP--/master/wallpaper.bat -OutFile wallpaper.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/base-erdepe/--BASE_RDP--/master/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/base-erdepe/--BASE_RDP--/master/start.bat -OutFile push.bat
     - name: Extract Ngrok File.
       run: Expand-Archive ngrok.zip
     - name: Connect Ngrok.
